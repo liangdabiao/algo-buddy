@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://import/fig_chapter_dynamic_programming_climbing_stairs_dfs_memo_tree.png-7580d671d073a20b9c3d8181f48a38b9.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://assets/figures/fig_chapter_dynamic_programming_climbing_stairs_dfs_memo_tree.png"
+dest_files=[ "res://import/fig_chapter_dynamic_programming_climbing_stairs_dfs_memo_tree.png-7580d671d073a20b9c3d8181f48a38b9.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

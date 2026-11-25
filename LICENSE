@@ -1,0 +1,32 @@
+MIT License
+
+Copyright (c) 2026 liangdabiao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Content notice: the learning content distributed with this repository
+(data/content.json, assets/figures, assets/covers) is derived from
+"Hello 算法" (hello-algo) by krahets, licensed under CC BY-NC-SA 4.0
+(https://github.com/krahets/hello-algo). Attribution to the original author
+is preserved in the app's 关于与版权 page, in data/content.json meta, and here.
+That content therefore remains under CC BY-NC-SA 4.0: attribute krahets,
+use it non-commercially, and share adaptations under the same license.
+The source code of this app itself is MIT.
