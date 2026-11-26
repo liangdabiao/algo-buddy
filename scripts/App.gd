@@ -162,7 +162,8 @@ func _input(event: InputEvent) -> void:
 
 func _clear_screen() -> void:
 	if is_instance_valid(screen_root):
-		screen_root.free()
+		remove_child(screen_root)
+		screen_root.queue_free()
 	screen_root = Control.new()
 	screen_root.rect_size = Vector2(640, 480)
 	screen_root.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -189,7 +190,7 @@ func _build_menu(items: Array, rect: Rect2, spacing: float, columns: int) -> voi
 		var y: float = rect.position.y + index * spacing if spacing > 0 else rect.position.y + index * (rect.size.y + 8)
 		var panel := ui.panel(screen_root, Rect2(rect.position.x, y, rect.size.x, rect.size.y), ui.PANEL, ui.LINE, 10)
 		panel.mouse_filter = Control.MOUSE_FILTER_STOP
-		panel.connect("gui_input", self, "_on_menu_gui_input", [index])
+		panel.connect("gui_input", self, "_on_menu_gui_input", [index], CONNECT_DEFERRED)
 		var status: String = String(item.get("status", ""))
 		var status_width: float = ui.font(14).get_string_size(status).x + 8 if status != "" else 0
 		ui.label(panel, String(item.get("text", "")), Rect2(16, 3, rect.size.x - status_width - 24, rect.size.y - 6), 17 if rect.size.y >= 40 else 15, ui.TEXT, 0, true)
